@@ -87,7 +87,7 @@ Memory card chakra pictures adapted from:
 https://yogapractice.com/yoga/balancing-7-chakras/
 
 ##Acknowledgements
-Entire code for project (aside from the heading) for this very last minute project was adapted from here.
+Entire code for project (aside from the heading) was adapted from:
 Marina Ferreira
 http://youtube.com - automatic!
 [YouTube](https://www.youtube.com/watch?v=ZniVgo8U7ek)
