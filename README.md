@@ -95,10 +95,10 @@ http://youtube.com - automatic!
 
 # Apologies
 
-* I truly apologize for even turning a project so insulting in. I have worked on this for three months, just to bring you this garbage. 
+* I truly apologize for even turning a project this insulting, in. I have worked on this for three months just to bring you this garbage. 
 My original game found here: http://github.com - Original game!
-[GitHub]( https://susanmarie87.github.io/Match-My-Oils/) Just would not work. The Javascript would sort of function in Dev Tools but on the site
+[GitHub]( https://susanmarie87.github.io/Match-My-Oils/) This game would not work. The Javascript would sort of function in Dev Tools but on the site
 it would not function at all. I reached out for help but was unable to grasp the concept here. 
- I buried myself here but just wanted to showyou that I did not just intentionally steal someone's code to pass off on my own in a week, I'm just 
+ I buried myself on this one but just wanted to show you that though it may look like it,  it was not my intent to take someone's code to pass off on my own in a day, I'm just 
  this horrible at coding. You can look through my workspacess and see the rest of my horrid attempts at this game. Needless to say, I have a lot of
-work to do to hopefulle begin to understand this JavaScript mess.
+work to do to hopefully begin to understand this JavaScript mess.
