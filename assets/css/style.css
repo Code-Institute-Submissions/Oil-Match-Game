@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+/* -- code adapted from: https://www.youtube.com/watch?v=ZniVgo8U7ek)-- */
+
 body {
   height: 100vh;
   display: flex;
