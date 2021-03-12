@@ -1,3 +1,5 @@
+// code adapted from https://www.youtube.com/watch?v=ZniVgo8U7ek
+
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
@@ -56,5 +58,9 @@ function resetBoard() {
     card.style.order = randomPos;
   });
 })();
+  function reply_click(clicked_id)
+  {
+      alert(clicked_id);
+  }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
