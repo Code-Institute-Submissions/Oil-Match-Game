@@ -1,18 +1,15 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/susanmarie87/MS2-Game)
+Align The Chakras- MS2
 
-Match The Oils
-
-Match the Oils is a card matching game. In this game we have several rows of cards. We then have to flip over two cards at a time in
+Align The Chakras is a simple card matching game. In this game we have several rows of cards. We then have to flip over two cards at a time in
 hopes of finding the match. In the event we do not choose the matching cards, our cards will automatically flip back over and we have
-the chance to try again. The cards will automatically shuffle for the next roud. The object of the game will be to always beat the previous 
-high score in order to 
+the chance to try again. The cards will automatically shuffle for the next round. 
 
-Image
+http://github.com - Site hosted here!
+[GitHub]( https://susanmarie87.github.io/Oil-Match-Game/)
 
-Live site hosted on Github pages HERE
+#UX
 
-UX
-As a user, I want to play a rousing matching game.
+As a user, I want to play a simple matching game.
 
 As a user I want the game to be able to keep my attention.
 
@@ -26,9 +23,10 @@ As a user, I want this game to be mobile first responsive.
 
 Wireframes
 Basic Wireframes
-![Image]('assets/MS2-WireFrame/images.jpg')
+![Image]('assets/Wireframes/MS2Wireframe(1).jpg')
+![Image]('assets/Wireframes/MS2Wireframe(2).jpg')
+![Image]('assets/Wireframes/MS2Wireframe(3).jpg')
 
-Final Wireframes
 
 Existing Features
 
@@ -47,26 +45,26 @@ JavaScript
 
 W3C validation
 
+AutoPrefixer
+
 Testing
-Each page on the website was tested for screen resposiveness to ensure breakpoints.
+Each page on the website was tested for screen resposiveness to ensure breakpoints. This site does not pass any breakpoints.
+
 
 The code was ran through each specific validator to make sure it passed.
+All code passed the validator except for this error with JavaScript:
+Error: Non-space characters found without seeing a doctype first. Expected <!DOCTYPE html>.
 
+From line 1, column 1; to line 1, column 56
 
-Tested links on Landing Page to ensure they went to desired areas.
-
-Tested Wild Indigos links on Footer to ensure that link worked properly.
-
-Tested all social media links
-
-Ran HTML code through WS3 Markdown validator. Minor warnings appeared regarding button element not permitted in the "a" element. Resolved this by replacing button element with div element
+const cards = document.querySelectorAll('.memory-card');↩↩let 
 
 Removed unnecessary code that was flagged in HTML validator.
 
 Ran CSS through WS3 validator- PASSED.
 
 Deployment
-Match My Oils has been deployed on GitHub Pages with the following process:
+Align The Chakras has been deployed on GitHub Pages with the following process:
 
 All code was written on Gitpod, a cloud-based IDE.
 
@@ -87,12 +85,16 @@ The Clone option provides a URL, which you can use on your desktop IDE.
 The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine or uploaded to your cloud-based IDE workspace.
 
 Credits:
-CardFace Image
+CardFace Image:
 https://unsplash.com/@maxineficheux
-https://images.unsplash.com/photo-1566745914757-00febc880ff9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjZ8fGxhdmVuZGVyJTIwZmxvd2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
 
-Acknowledgements
-Code Institute
+Memory card chakra pictures adapted from:
 
+https://yogapractice.com/yoga/balancing-7-chakras/
 
+##Acknowledgements
+Entire code for project (aside from the heading) for this very last minute project was adapted from here.
+Marina Ferreira
+http://youtube.com - automatic!
+[YouTube](https://www.youtube.com/watch?v=ZniVgo8U7ek)
 
