@@ -1,41 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/scripts.js" async></script>
     <title>Document</title>
 </head>
-<body>
-    <h1>Match The Oils</h1>
+<body>  
+    <h1>Align The Chakras</h1>
+  <section class="memory-game">
+    <div class="memory-card" data-framework="Sacral">
+      <img class="front-face" src="assets/images/Sacral.png" alt="Sacral" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+    <div class="memory-card" data-framework="Sacral">
+      <img class="front-face" src="assets/images/Sacral.png" alt="Sacral" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
 
-    <div class="row">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
+    <div class="memory-card" data-framework="SolarPlexus">
+      <img class="front-face" src="assets/images/SolarPlexus.png" alt="SolarPlexus" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
     </div>
-    <div class="row">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div>  
-    <div class="row">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-    </div> 
-    <div class="row">
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
-      <div class="card"></div>
+    <div class="memory-card" data-framework="SolarPlexus">
+      <img class="front-face" src="assets/images/SolarPlexus.png" alt="SolarPlexus" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
     </div>
-    <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <div class="memory-card" data-framework="Root">
+      <img class="front-face" src="assets/images/Root.png" alt="Root" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+    <div class="memory-card" data-framework="Root">
+      <img class="front-face" src="assets/images/Root.png" alt="Root" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+
+    <div class="memory-card" data-framework="Heart">
+      <img class="front-face" src="assets/images/Heart.png" alt="Heart" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+    <div class="memory-card" data-framework="Heart">
+      <img class="front-face" src="assets/images/Heart.png" alt="Heart" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+
+    <div class="memory-card" data-framework="Thirdeye">
+      <img class="front-face" src="assets/images/Thirdeye.png" alt="Thirdeye" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+    <div class="memory-card" data-framework="Thirdeye">
+      <img class="front-face" src="assets/images/Thirdeye.png" alt="Thirdeye" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+
+    <div class="memory-card" data-framework="Crown">
+      <img class="front-face" src="assets/images/Crown.png" alt="Crown" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+    <div class="memory-card" data-framework="Crown">
+      <img class="front-face" src="assets/images/Crown.png" alt="Crown" />
+      <img class="back-face" src="assets/images/Flamethrower.jpg" alt="Flamethrower" />
+    </div>
+  </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
