@@ -7,48 +7,42 @@ the chance to try again. The cards will automatically shuffle for the next round
 http://github.com - Site hosted here!
 [GitHub]( https://susanmarie87.github.io/Oil-Match-Game/)
 
-#UX
+# UX
 
-As a user, I want to play a simple matching game.
+* As a user, I want to play a simple matching game.
 
-As a user I want the game to be able to keep my attention.
+* As a user I want the game to be able to keep my attention.
 
-As a user I want the game to be a good challenge
+* As a user I want the game to be a good challenge
 
-As a user choosing a card matching game, I want the memory game to sharpen my mind.
+* As a user choosing a card matching game, I want the memory game to sharpen my mind.
 
-As a user, I want this game to function properly.
+* As a user, I want this game to function properly.
 
-As a user, I want this game to be mobile first responsive.
+* As a user, I want this game to be mobile first responsive.
 
-Wireframes
-Basic Wireframes
-![Image]('assets/Wireframes/MS2Wireframe(1).jpg')
+# Wireframes
+* Basic Wireframes
+![Wireframes](assets/images/MS2Wireframe(1).jpg)
+Format: ![Wireframe](url)
 ![Image]('assets/Wireframes/MS2Wireframe(2).jpg')
 ![Image]('assets/Wireframes/MS2Wireframe(3).jpg')
 
 
-Existing Features
+# Existing Features
 
-Technologies Used
-HTML5
+* Technologies Used
+* HTML5
+* CSS
+* Bootstrap
+* Github
+* Git
+* JavaScript
+* W3C validation
+* AutoPrefixer
 
-CSS
-
-Bootstrap
-
-Github
-
-Git
-
-JavaScript
-
-W3C validation
-
-AutoPrefixer
-
-Testing
-Each page on the website was tested for screen resposiveness to ensure breakpoints. This site does not pass any breakpoints.
+# Testing
+The game on the website was tested for screen resposiveness to ensure breakpoints. This game does not pass any breakpoints.
 
 
 The code was ran through each specific validator to make sure it passed.
@@ -63,7 +57,7 @@ Removed unnecessary code that was flagged in HTML validator.
 
 Ran CSS through WS3 validator- PASSED.
 
-Deployment
+# Deployment
 Align The Chakras has been deployed on GitHub Pages with the following process:
 
 All code was written on Gitpod, a cloud-based IDE.
@@ -84,7 +78,7 @@ The Clone option provides a URL, which you can use on your desktop IDE.
 
 The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine or uploaded to your cloud-based IDE workspace.
 
-Credits:
+# Credits:
 CardFace Image:
 https://unsplash.com/@maxineficheux
 
@@ -98,3 +92,13 @@ Marina Ferreira
 http://youtube.com - automatic!
 [YouTube](https://www.youtube.com/watch?v=ZniVgo8U7ek)
 
+
+# Apologies
+
+* I truly apologize for even turning a project so insulting in. I have worked on this for three months, just to bring you this garbage. 
+My original game found here: http://github.com - Original game!
+[GitHub]( https://susanmarie87.github.io/Match-My-Oils/) Just would not work. The Javascript would sort of function in Dev Tools but on the site
+it would not function at all. I reached out for help but was unable to grasp the concept here. 
+ I buried myself here but just wanted to showyou that I did not just intentionally steal someone's code to pass off on my own in a week, I'm just 
+ this horrible at coding. You can look through my workspacess and see the rest of my horrid attempts at this game. Needless to say, I have a lot of
+work to do to hopefulle begin to understand this JavaScript mess.
