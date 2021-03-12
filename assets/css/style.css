@@ -1,18 +1,66 @@
-
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@800&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.row {
-    text-align: center;
-
+body {
+  height: 100vh;
+  display: flex;
+  background: rgb(142, 23, 189);
+  padding-top: 50px;
+  justify-content: flex-start;
+}
+h1 {
+position: relative;
+justify-content: center;
+top: 0%;
+left: 50%;
+color: turquoise;
+font-family:  'BioRhyme Expanded', serif;
+}
+.memory-game {
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  margin-top: 175px;;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
 }
 
-.card {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: purple;
+.memory-card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  background: rgb(142, 23, 189);
+  backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
 }
